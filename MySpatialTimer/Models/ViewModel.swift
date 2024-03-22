@@ -35,9 +35,7 @@ class ViewModel {
         )
         cylinderEntity.position = SIMD3<Float>(x: -0.5, y: 1.5, z: -1.0)
         let rotationQuaternionX = simd_quatf(angle: .pi / 2, axis: SIMD3<Float>(1, 0, 0))
-        let rotationQuaternionY = simd_quatf(angle: .pi, axis: SIMD3<Float>(0, 1, 0))
-        let rotationQuaternionZ = simd_quatf(angle: .pi, axis: SIMD3<Float>(0, 0, 1))
-        cylinderEntity.orientation = rotationQuaternionX * rotationQuaternionY * rotationQuaternionZ
+        cylinderEntity.orientation = rotationQuaternionX
 
         rootEntity.addChild(cylinderEntity)
     }
@@ -52,9 +50,7 @@ class ViewModel {
         entity.generateCollisionShapes(recursive: true)
 
         let rotationQuaternionX = simd_quatf(angle: .pi / 2, axis: SIMD3<Float>(1, 0, 0))
-        let rotationQuaternionY = simd_quatf(angle: .pi, axis: SIMD3<Float>(0, 1, 0))
-        let rotationQuaternionZ = simd_quatf(angle: .pi, axis: SIMD3<Float>(0, 0, 1))
-        entity.orientation = rotationQuaternionX * rotationQuaternionY * rotationQuaternionZ
+        entity.orientation = rotationQuaternionX
 
         placementLocation.addChild(entity)
     }
