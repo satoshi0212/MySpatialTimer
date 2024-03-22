@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E622B582BA5EA7A00032515 /* MySpatialTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E622B572BA5EA7A00032515 /* MySpatialTimerApp.swift */; };
+		8E622B5A2BA5EA7A00032515 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E622B592BA5EA7A00032515 /* ContentView.swift */; };
+		8E622B5C2BA5EA7A00032515 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E622B5B2BA5EA7A00032515 /* ImmersiveView.swift */; };
+		8E622B5E2BA5EA7B00032515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E622B5D2BA5EA7B00032515 /* Assets.xcassets */; };
+		8E622B612BA5EA7B00032515 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E622B602BA5EA7B00032515 /* Preview Assets.xcassets */; };
+		8E622B692BA5FA3500032515 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E622B682BA5FA3500032515 /* ViewModel.swift */; };
+		8E622B6B2BA6018500032515 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E622B6A2BA6018500032515 /* Utilities.swift */; };
+		8E622B6D2BA60C3900032515 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E622B6C2BA60C3900032515 /* TimerModel.swift */; };
+		8E622B6F2BA60DC500032515 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E622B6E2BA60DC500032515 /* TimerManager.swift */; };
+		8E622B712BA6110000032515 /* TImerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E622B702BA6110000032515 /* TImerView.swift */; };
+		8E622B732BA6113000032515 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E622B722BA6113000032515 /* PickerView.swift */; };
+		8E622B752BA6C99D00032515 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E622B742BA6C99D00032515 /* AppState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E622B502BA5EA7A00032515 /* MySpatialTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySpatialTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E622B572BA5EA7A00032515 /* MySpatialTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpatialTimerApp.swift; sourceTree = "<group>"; };
+		8E622B592BA5EA7A00032515 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E622B5B2BA5EA7A00032515 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		8E622B5D2BA5EA7B00032515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E622B602BA5EA7B00032515 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E622B622BA5EA7B00032515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E622B682BA5FA3500032515 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		8E622B6A2BA6018500032515 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		8E622B6C2BA60C3900032515 /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		8E622B6E2BA60DC500032515 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		8E622B702BA6110000032515 /* TImerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TImerView.swift; sourceTree = "<group>"; };
+		8E622B722BA6113000032515 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		8E622B742BA6C99D00032515 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E622B4D2BA5EA7A00032515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E622B472BA5EA7A00032515 = {
+			isa = PBXGroup;
+			children = (
+				8E622B522BA5EA7A00032515 /* MySpatialTimer */,
+				8E622B512BA5EA7A00032515 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E622B512BA5EA7A00032515 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E622B502BA5EA7A00032515 /* MySpatialTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E622B522BA5EA7A00032515 /* MySpatialTimer */ = {
+			isa = PBXGroup;
+			children = (
+				8E622B572BA5EA7A00032515 /* MySpatialTimerApp.swift */,
+				8E622B742BA6C99D00032515 /* AppState.swift */,
+				8E622BA32BAADFAE00032515 /* Views */,
+				8E622BA42BAADFCC00032515 /* Models */,
+				8E622B6A2BA6018500032515 /* Utilities.swift */,
+				8E622B5D2BA5EA7B00032515 /* Assets.xcassets */,
+				8E622B622BA5EA7B00032515 /* Info.plist */,
+				8E622B5F2BA5EA7B00032515 /* Preview Content */,
+			);
+			path = MySpatialTimer;
+			sourceTree = "<group>";
+		};
+		8E622B5F2BA5EA7B00032515 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E622B602BA5EA7B00032515 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E622BA32BAADFAE00032515 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E622B592BA5EA7A00032515 /* ContentView.swift */,
+				8E622B5B2BA5EA7A00032515 /* ImmersiveView.swift */,
+				8E622B702BA6110000032515 /* TImerView.swift */,
+				8E622B722BA6113000032515 /* PickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8E622BA42BAADFCC00032515 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E622B682BA5FA3500032515 /* ViewModel.swift */,
+				8E622B6E2BA60DC500032515 /* TimerManager.swift */,
+				8E622B6C2BA60C3900032515 /* TimerModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E622B4F2BA5EA7A00032515 /* MySpatialTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E622B652BA5EA7B00032515 /* Build configuration list for PBXNativeTarget "MySpatialTimer" */;
+			buildPhases = (
+				8E622B4C2BA5EA7A00032515 /* Sources */,
+				8E622B4D2BA5EA7A00032515 /* Frameworks */,
+				8E622B4E2BA5EA7A00032515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySpatialTimer;
+			packageProductDependencies = (
+			);
+			productName = MySpatialTimer;
+			productReference = 8E622B502BA5EA7A00032515 /* MySpatialTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E622B482BA5EA7A00032515 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8E622B4F2BA5EA7A00032515 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 8E622B4B2BA5EA7A00032515 /* Build configuration list for PBXProject "MySpatialTimer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E622B472BA5EA7A00032515;
+			productRefGroup = 8E622B512BA5EA7A00032515 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E622B4F2BA5EA7A00032515 /* MySpatialTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E622B4E2BA5EA7A00032515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E622B612BA5EA7B00032515 /* Preview Assets.xcassets in Resources */,
+				8E622B5E2BA5EA7B00032515 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E622B4C2BA5EA7A00032515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E622B5A2BA5EA7A00032515 /* ContentView.swift in Sources */,
+				8E622B752BA6C99D00032515 /* AppState.swift in Sources */,
+				8E622B582BA5EA7A00032515 /* MySpatialTimerApp.swift in Sources */,
+				8E622B732BA6113000032515 /* PickerView.swift in Sources */,
+				8E622B692BA5FA3500032515 /* ViewModel.swift in Sources */,
+				8E622B6D2BA60C3900032515 /* TimerModel.swift in Sources */,
+				8E622B6B2BA6018500032515 /* Utilities.swift in Sources */,
+				8E622B6F2BA60DC500032515 /* TimerManager.swift in Sources */,
+				8E622B712BA6110000032515 /* TImerView.swift in Sources */,
+				8E622B5C2BA5EA7A00032515 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E622B632BA5EA7B00032515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		8E622B642BA5EA7B00032515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		8E622B662BA5EA7B00032515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MySpatialTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = 247V527KAQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.shmdevelopment.MySpatialTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		8E622B672BA5EA7B00032515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MySpatialTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = 247V527KAQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.shmdevelopment.MySpatialTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E622B4B2BA5EA7A00032515 /* Build configuration list for PBXProject "MySpatialTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E622B632BA5EA7B00032515 /* Debug */,
+				8E622B642BA5EA7B00032515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E622B652BA5EA7B00032515 /* Build configuration list for PBXNativeTarget "MySpatialTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E622B662BA5EA7B00032515 /* Debug */,
+				8E622B672BA5EA7B00032515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E622B482BA5EA7A00032515 /* Project object */;
+}
